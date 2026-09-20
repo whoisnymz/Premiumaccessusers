@@ -1,0 +1,32 @@
+-- Services
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- Table of authorized usernames (add approved usernames inside the quotes)
+local authorizedUsers = {
+    "nymnz",
+    "VoteFFA_PLS",
+    "Toitento0",
+    ""
+}
+
+-- Function to check if a username is in the authorized list
+local function isAuthorized(name)
+    for _, user in ipairs(authorizedUsers) do
+        if user == name then
+            return true
+        end
+    end
+    return false
+end
+
+-- Kick check upon execution
+if not isAuthorized(LocalPlayer.Name) then
+    -- Copy the Discord invite link to their clipboard
+    pcall(function()
+        setclipboard("https://discord.gg/WZGSaWhB8")
+    end)
+    
+    -- Kick the player
+    LocalPlayer:Kick("You do not have permission to this script! Discord invite copied to your clipboard: https://discord.gg/WZGSaWhB8")
+end
