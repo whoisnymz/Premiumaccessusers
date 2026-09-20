@@ -4,7 +4,7 @@ local LocalPlayer = Players.LocalPlayer
 
 -- Table of authorized usernames (add approved usernames inside the quotes)
 local authorizedUsers = {
-    "nymnz",
+    "nymnmz",
     "VoteFFA_PLS",
     "Toitento0",
     ""
