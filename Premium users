@@ -17,7 +17,8 @@ local authorizedUsers = {
     "ESQUESlTO",
     "k3vinmax",
     "d6ryn1",
-    "razdhanbos"
+    "razdhanbos",
+    "fgqw3433"
 }
 
 -- Function to check if a username is in the authorized list
