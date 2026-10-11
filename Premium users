@@ -22,7 +22,8 @@ local authorizedUsers = {
     "f_sudo",
     "Tyreekdillpickle",
     "perdiminhacontakr",
-    "sondevith"
+    "sondevith",
+    "XxIsaacR0cketxX2006"
 }
 
 -- Function to check if a username is in the authorized list
