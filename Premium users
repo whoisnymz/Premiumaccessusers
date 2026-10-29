@@ -22,7 +22,8 @@ local authorizedUsers = {
     "GIMMESAE0167",
     "o8yd4",
     "r0gra",
-    "razdhanbos"
+    "razdhanbos",
+    "KingofRoblox00854"
 }
 
 -- Function to check if a username is in the authorized list
