@@ -6,6 +6,7 @@ local LocalPlayer = Players.LocalPlayer
 local authorizedUsers = {
     "nymnmz",
     "VoteFFA_PLS",
+    "4NMJJANG",
     "Toitento0",
     "Lucas_adm145t",
     "Seven_Six6077",
